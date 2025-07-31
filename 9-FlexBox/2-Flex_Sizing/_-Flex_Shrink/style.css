@@ -1,0 +1,64 @@
+.container{
+
+    width: 800px;
+    height: 450px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+    align-items: baseline;
+
+    
+   
+
+
+
+}
+
+.div{
+
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid green;
+    font-size: 20px;
+    
+
+}
+
+.div_yellow{
+
+   
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid green;
+    font-size: 20px;
+    flex-shrink: 2;
+  
+
+   
+    
+
+
+}
+
+.div_pink{
+
+   
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    border: 1px solid green;
+    font-size: 20px;
+    flex-shrink: 2;
+   
+   
+    
+
+
+}
