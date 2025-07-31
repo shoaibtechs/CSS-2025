@@ -1,0 +1,45 @@
+h1{
+
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-family: avant garde, didot, sans-serif;
+
+}
+
+h3{
+
+
+    text-align: right;
+    text-decoration: green sline-through;
+}
+
+
+/*  */
+
+
+p{
+    text-align: left;
+    font-weight: 100;  /* Mtlb kitna woh bold hoga */
+    line-height: 2.5;   /* By deafult it is normal     like: line-height: normal     */ 
+    font-size: 13px;
+    
+
+}
+
+
+h5{
+
+    text-align: justify;
+    text-decoration: red overline;
+
+}
+
+
+/* We can remove the line of the link using text decoration property  */
+
+a {
+
+    text-decoration: none; 
+
+}

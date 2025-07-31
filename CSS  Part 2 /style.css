@@ -1,0 +1,185 @@
+/* Selectors  */
+
+
+/* ---------------------------------------------------------1. Universal selector ------------------------------ */
+
+
+/* Not recomended */
+
+
+
+/* 
+
+
+*{
+
+    background-color: blue ;
+
+}
+ */
+
+
+/* ---------------------------------------------------------2. Element selector ------------------------------ */
+
+
+/* Selects the same type of elements  */
+
+
+h3 {
+
+    color: #b92b27;
+
+}
+
+h1 {
+
+    color: #b92b27;
+
+}
+
+
+/* I also can do this  */
+
+
+h1,h3 {
+
+    color: #b92b27;
+
+
+
+}
+
+
+
+
+/* ---------------------------------------------------------3. ID selector ------------------------------ */
+
+#login {
+
+    background-color: white;
+
+}
+
+
+#signup {
+
+    background-color: #b92b27;
+    color: white;
+
+}
+
+
+
+/* ---------------------------------------------------------4. Class selector ------------------------------ */
+
+
+.upvote {
+
+    background-color: green;
+
+
+}
+
+
+
+/* -----------------------------------------------5. Descendant selector ------------------------------ */
+
+/* Paragraph ke andar wala anchor tags pe ye apply hoga only */
+
+p a {
+
+    color: purple;
+
+}
+
+
+nav ul li a {
+
+    color: pink;
+
+}
+
+
+
+/* -----------------------------------------------6. Adjacent Siblings Combinator ------------------------------ */
+
+
+
+ p+h3 {
+
+
+    color: green;
+
+}
+
+
+
+/* -----------------------------------------------7. Child Combinator  ------------------------------ */
+
+
+/* Isko itna use nhi karte hum  */
+
+div > input {
+
+    background-color: darksalmon;
+
+}
+
+
+/* -----------------------------------------------8. Attribute Selector  ------------------------------ */
+
+input[type="text" ]{
+
+    color: green;
+
+}
+
+
+input[type="password" ]{
+
+    color: red;
+
+}
+
+
+
+
+/*----------------------------------------------Psuedo Classes----------------------------------------------- */
+
+
+/* 1.-------------------------------Hover Line----------------------------------------- */
+
+
+button:hover {
+
+    background-color: black;
+    color: white;
+
+}
+
+
+h3:hover {
+
+    text-decoration: overline;
+
+}
+
+
+
+/* 2.-------------------------------Active Class----------------------------------------- */
+
+/* When we clikc on it  */
+
+
+button:active{
+
+    background-color: pink;
+
+}
+
+
+p:active {
+
+    font-weight: bold;
+    color: green;
+}
